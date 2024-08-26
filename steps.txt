@@ -1,0 +1,19 @@
+configuração da conta local do GIT:
+git config --global user.name mandinha2108
+git config --global user.email amafur8@gmail.com
+
+Criar o projeto:
+ npx create-expo-app@latest GMusic --template blank
+ cd GMusic
+
+Instalar os pacotes necessários:
+ npx expo install react-dom react-native-web @expo/metro-runtime
+ npx expo install @react-native-community/slider
+ npx expo install expo-av
+
+Executar projeto
+Web:
+   npx expo start --Web
+Android:
+   npx expo start --android --localhost
+
